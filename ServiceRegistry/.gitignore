@@ -1,0 +1,39 @@
+# Exclude all target directories
+target/
+# Include target directories within src/main and src/test
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Exclude all build directories
+build/
+# Include build directories within src/main and src/test
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper jar file should be included
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite) specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA specific files
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code specific files
+.vscode/
