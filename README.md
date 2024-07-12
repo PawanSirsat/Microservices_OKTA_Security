@@ -40,7 +40,7 @@ This project is a microservices architecture for the "MakeMyTrip" application, i
 
 1. **Clone the repository:**
    ```sh
-   git clone (https://github.com/PawanSirsat/Microservices_OKTA_Security.git)
+   git clone https://github.com/PawanSirsat/Microservices_OKTA_Security.git
    cd makemytrip-microservices
    ```
 
